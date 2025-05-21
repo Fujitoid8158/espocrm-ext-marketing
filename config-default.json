@@ -4,18 +4,18 @@
         "branch": "stable"
     },
     "database": {
-        "host": "localhost",
+        "host": "mariadb",
         "port": null,
         "charset": "utf8mb4",
-        "dbname": "ext-{@nameHyphen}",
-        "user": "root",
-        "password": ""
+        "dbname": "espocrm",
+        "user": "espocrm",
+        "password": "espocrm"
     },
     "install": {
         "language": "en_US",
         "defaultOwner": "www-data",
         "defaultGroup": "www-data",
-        "siteUrl": "http://localhost/ext-{@nameHyphen}/site",
+        "siteUrl": "http://localhost/ext-marketing/site",
         "adminUsername": "admin",
         "adminPassword": "1"
     }

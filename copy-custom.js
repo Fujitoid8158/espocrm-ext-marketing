@@ -9,7 +9,7 @@ copyCustom();
 
 function copyCustom () {
     const moduleName = extensionParams.module;
-    const sourcePath = './site/custom/Espo/Custom/';
+    const sourcePath = '../custom/Espo/Custom/';
     const distPath = './src/files/custom/Espo/Modules/' + moduleName;
 
     fs.copySync(sourcePath, distPath);

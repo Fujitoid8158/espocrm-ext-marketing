@@ -1,9 +1,9 @@
 {
-    "module": "{@name}",
-    "name": "{@nameLabel}",
-    "description": "{@description}",
-    "author": "{@author}",
-    "bundled": {@bundled},
+    "module": "Marketing",
+    "name": "Marketing",
+    "description": "Marketing.",
+    "author": "Fujitoid",
+    "bundled": true,
     "acceptableVersions": [
         ">=7.3.0"
     ],
